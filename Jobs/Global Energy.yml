@@ -24,8 +24,7 @@ resources:
           depends_on:
             - task_key: Silver
           notebook_task:
-            notebook_path: /Workspace/global energy/gold/Star Schema - Energy Transition
-              Gold Layer
+            notebook_path: /Workspace/global energy/gold/Star Schema - Gold
             source: WORKSPACE
       queue:
         enabled: true
